@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Band:</b>
+  <%= @ituneship.band_id %>
+</p>
+
+<p>
+  <b>Fan:</b>
+  <%= @ituneship.fan_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_ituneship_path(@ituneship) %> |
+<%= link_to 'Back', ituneships_path %>
